@@ -51,6 +51,8 @@ vim.keymap.set("n", "gQ", function()
     end
 end)
 
+vim.keymap.set("n", "oi", "o")
+vim.keymap.set("n", "Oi", "O")
 vim.keymap.set("n", "oo", "o<Esc>")
 vim.keymap.set("n", "OO", "O<Esc>")
 vim.keymap.set("n", "vv", "ggVG")
