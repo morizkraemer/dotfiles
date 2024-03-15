@@ -64,3 +64,5 @@ vim.keymap.set(
     ':lua require("buffer_manager.ui").toggle_quick_menu()<CR>',
     { noremap = true, silent = true }
 )
+
+vim.keymap.set("n", "<leader>uN", ":Telescope notify", { silent = true })
